@@ -11,4 +11,11 @@ For the the sake of simplisity, Toronto city will be used as a traveler's desten
 To achieve that, we will use Foursquare API, which is Location-based services . 
 It seems that everywhere you turn, and other tools to "check in" to their favorite locations, share tips with other users about favorite drinks or dishes, and share all of this activity on other services like Twitter and Facebook. 
 The API itself is a RESTful set of addresses to which you can send requests.
-Based on data from foursquare, we will create clusters to recommend suitable neghbourhoods for the user. 
+Based on data from foursquare, we will create clusters to recommend suitable neghbourhoods for the user.
+
+
+Data Collection and Processing:
+- Scrapping this webpage :https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M 	This is a list of postal codes in Canada where the first letter is M. Postal codes beginning with M are located within the city of Toronto in the province of Ontario.
+- Get Geolocation data from the file: http://cocl.us/Geospatial_data
+- Using Foursquare API to Explore the neighborhoods in Toronto
+- Using K-means Clustering to cluster the neighborhoods in Toronto
