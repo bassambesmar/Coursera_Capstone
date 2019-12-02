@@ -1,0 +1,14 @@
+Where to go ?
+
+When it comes to exploring a new town, some travelers like to wing it.
+After all, there’s a lot to be said for a day without plans and the freedom to explore.
+But even if you’re a Type B traveler, you’ll appreciate facing that freedom armed with a little knowledge of how to get around—and maybe a dinner reservation to look forward to.
+Regardless of your personality type, we believe a little prep work goes a long way. 
+This project aims to help any traveller to find the most intersting places in the city which planing to visit. Furthermore, any company provide tours or any travelling service could use this projcet.
+For instance, a traveler interested in chiness food and cinema so he will get recommedation for neighbourhoods contains those.
+
+For the the sake of simplisity, Toronto city will be used as a traveler's destenation. 
+To achieve that, we will use Foursquare API, which is Location-based services . 
+It seems that everywhere you turn, and other tools to "check in" to their favorite locations, share tips with other users about favorite drinks or dishes, and share all of this activity on other services like Twitter and Facebook. 
+The API itself is a RESTful set of addresses to which you can send requests.
+Based on data from foursquare, we will create clusters to recommend suitable neghbourhoods for the user. 
